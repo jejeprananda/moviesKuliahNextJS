@@ -19,7 +19,7 @@ export default function Home() {
        <link rel="icon" href="/favicon.ico" />
      </Head>
      <div className='myBG'>
-       <NavigationBar></NavigationBar>
+       <NavigationBar className="navbar"></NavigationBar>
        <Intro scroll = {executeScroll}></Intro>
      </div>
     
